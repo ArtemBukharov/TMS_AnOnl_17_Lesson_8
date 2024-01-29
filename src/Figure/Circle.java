@@ -13,7 +13,7 @@ public class Circle extends Figure {
     }
 
     @Override
-    public double perimeterCalculation() {
+    public double calculayionPerimeter() {
         return 2 * (Math.PI * radius);
     }
 }

@@ -16,7 +16,7 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public double perimeterCalculation() {
+    public double calculayionPerimeter() {
         return 2 * (width + height);
     }
 }

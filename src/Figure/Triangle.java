@@ -21,7 +21,7 @@ double h ;
     }
 
     @Override
-    public double perimeterCalculation() {
+    public double calculayionPerimeter() {
         return a + b + c ;
 
     }
