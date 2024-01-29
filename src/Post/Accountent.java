@@ -1,14 +1,11 @@
 package Post;
 
 public class Accountent implements PrintPost {
-    String post = "Accountent";
+    private static final String YOURPOST = "Accountent";
 
-    public Accountent(String post) {
-        this.post = post;
-    }
 
     @Override
     public void print() {
-System.out.println("your post" + post);
+        System.out.println(YOURPOST);
     }
 }

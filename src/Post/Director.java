@@ -1,14 +1,11 @@
 package Post;
 
 public class Director implements PrintPost{
-    String post = "Director";
+    private static final String YOURPOST = "Direktor";
 
-    public Director(String post) {
-        this.post = post;
-    }
 
     @Override
     public void print() {
-        System.out.println("your post" + post);
+        System.out.println(YOURPOST);
     }
 }
